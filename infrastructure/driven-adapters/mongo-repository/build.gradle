@@ -1,0 +1,14 @@
+group = 'co.com.sofkau'
+version = '0.0.1-SNAPSHOT'
+
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    implementation project(":model")
+    implementation project(":usecases")
+
+
+}
